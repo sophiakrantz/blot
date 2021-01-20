@@ -23,10 +23,10 @@ ul, li {
 .title {
 	font-family:baskerville;
 	font-weight:bold;
-	font-size: 105px;
+	font-size: 9.7vh;
 	position: absolute;
-	left: 867px;
-	top: 775px;
+	left: 80.27vh;
+	top: 71.76vh;
 	z-index: 2;
 }
 .blot {
@@ -35,124 +35,163 @@ ul, li {
 }
 .wax {
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	left: 0vh;
+	top: 0vh;
+	transform: rotate(0deg);
+}
+.wax:hover {
+	cursor: pointer;
+	animation: wiggleone 0.8s ease-out;
+}
+@keyframes wiggleone {
+	0% {transform: rotate(0deg);}
+	45% {transform: rotate(20deg);}
+	100% {transform: rotate(0deg);}
 }
 .wax2 {
 	position: absolute;
-	left: 240px;
-	top: 465px;
+	left: 22vh;
+	top: 43vh;
 	transform: rotate(120deg);
 	
 }
+.wax2:hover {
+	cursor: pointer;
+	animation: wiggletwo 0.8s ease-out;
+}
+@keyframes wiggletwo {
+	0% {transform: rotate(120deg);}
+	65% {transform: rotate(145deg);}
+	100% {transform: rotate(120deg);}
+}
 .wax3 {
 	position: absolute;
-	left: 1065px;
-	top: 547px;
-	transform: rotate(143deg);
+	left: 94vh;
+	top: 60vh;
+	z-index: 4;
+}
+.wax3:hover {
+	cursor: pointer;
+	animation: wigglethree 0.8s ease-out;
+}
+@keyframes wigglethree {
+	0% {transform: rotate(0deg);}
+	65% {transform: rotate(25deg);}
+	100% {transform: rotate(0deg);}
 }
 .wax4 {
 	position: absolute;
-	left: 1586px;
-	top: 1068px;
+	left: 147vh;
+	top: 99vh;
 	transform: rotate(-165deg);
+}
+.wax4:hover {
+	cursor: pointer;
+	animation: wigglefour 0.8s ease-out;
+}
+@keyframes wigglefour {
+	0% {transform: rotate(-165deg);}
+	65% {transform: rotate(-185deg);}
+	100% {transform: rotate(-165deg);}
 }
 .wax5 {
 	position: absolute;
-	left: 1200px;
-	top: 470px;
+	left: 111vh;
+	top: 37vh;
 	z-index: 3;
+}
+.wax5:hover {
+	cursor: pointer;
+	animation: wigglefive 0.8s ease-out;
+}
+@keyframes wigglefive {
+	0% {transform: rotate(0deg);}
+	65% {transform: rotate(20deg);}
+	100% {transform: rotate(0deg);}
 }
 .wax6 {
 	position: absolute;
-	left: 1355px;
-	top: -39px;
+	left: 125vh;
+	top: -3.6vh;
 	transform: rotate(-79deg);
 	opacity: 55%;
 }
+.wax6:hover {
+	cursor: pointer;
+	animation: wigglesix 0.8s ease-out;
+}
+@keyframes wigglesix {
+	0% {transform: rotate(-79deg);}
+	65% {transform: rotate(-99deg);}
+	100% {transform: rotate(-79deg);}
+}
 .wax7 {
 	position: absolute;
-	left: 752px;
-	top: 198px;
+	left: 70vh;
+	top: 18vh;
 	transform: rotate(347deg);
+}
+.wax7:hover {
+	cursor: pointer;
+	animation: wiggleseven 0.8s ease-out;
+}
+@keyframes wiggleseven {
+	0% {transform: rotate(347deg);}
+	65% {transform: rotate(367deg);}
+	100% {transform: rotate(347deg);}
 }
 .wax8 {
 	position: absolute;
-	left: 1410px;
-	top: 560px;
+	left: 130.5vh;
+	top: 52vh;
 	transform: rotate(165deg);
 }
-.wax:hover, .wax5:hover {
-	animation: movement 0.8s ease-out;
+.wax8:hover {
+	cursor: pointer;
+	animation: wiggleeight 0.8s ease-out;
 }
-@keyframes movement {
-	0% {
-		transform: translateY(0px);
-		transform: rotate(0deg);
-	}
-	65% {
-		transform: translateY(30px);
-		transform: rotate(30deg);
-	}
-	100% {
-		transform: translateY(0px);
-		transform: rotate(0deg);
-	}
-}
-.wax2:hover, .wax3:hover, .wax:hover {
-	animation: movement2 1.5s ease-out;
-}
-@keyframes movement2 {
-	0% {
-		transform: translateX(0px);
-		transform: rotate(120deg);
-	}
-	50% {
-		transform: translateX(-50px);
-		transform: rotate(180deg);
-	}
-	100% {
-		transform: translateX(0px);
-		transform: rotate(120deg);
-	}
+@keyframes wiggleeight {
+	0% {transform: rotate(165deg);}
+	65% {transform: rotate(185deg);}
+	100% {transform: rotate(165deg);}
 }
 .contact {
 	font-family: baskerville;
 	font-weight: normal;
 	font-size: 18.75px;
 	position: fixed;
-	top: 913px;
+	bottom: 6vh;
 	line-height: 20px;
 	z-index: 5;
 	background-color: #e8e6e3;
-	padding: 20px;
+	padding: 1.85vh;
 }
 .contact a:hover {
 	font-weight: bold;
 }
 .behind_the_process {
-	font-size: 18.75px;
-	line-height: 20px;
+	font-size: 1.74vh;
+	line-height: 1.85vh;
 	position: absolute;
-	left: 507px;
-	top: 1262px;
-	width: 436px;
+	left: 46.94vh;
+	top: 116.85vh;
+	width: 40.37vh;
 }
 .behind_blot {
-	font-size: 18.75px;
-	line-height: 20px;
+	font-size: 1.74vh;
+	line-height: 1.85vh;
 	position: absolute;
-	left: 978px;
-	top: 1262px;
-	width: 436px;
+	left: 90.56vh;
+	top: 116.85vh;
+	width: 40.37vh;
 }
 .bio {
-	font-size: 18.75px;
-	line-height: 20px;
+	font-size: 1.74vh;
+	line-height: 1.85vh;
 	position: absolute;
-	left: 507px;
-	top: 1664px;
-	width: 907px;
+	left: 46.94vh;
+	top: 154.07vh;
+	width: 83.98vh;
 	z-index: 3;
 }
 .untitled {
